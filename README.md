@@ -1,3 +1,6 @@
+> [!IMPORTANT]  
+> As of January 2026, the registry and supporting code for the HathiTrust federal documents repository is defunct. This code is archived and is not maintained.
+
 1. Mongo exports all source records originating from HTDL.
 2. Reimports them into the mongodb as database `zephir_<yyyymmdd>`
 3. Runs the collection_profile_report.rb with todays date: 
